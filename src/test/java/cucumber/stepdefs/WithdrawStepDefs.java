@@ -54,7 +54,6 @@ public class WithdrawStepDefs extends BaseTests {
         validateWindow();
     }
 
-
     private float getCurrentBalance(){
         String endpoint = format(Endpoints.GET_ACCOUNT, accountId);
         response = ServicesUtils.execute(endpoint, GET);
@@ -64,7 +63,4 @@ public class WithdrawStepDefs extends BaseTests {
     private void deposit(float amount){
         ServicesUtils.execute(format(Endpoints.DEPOSIT, accountId, amount), POST);
     }
-
-
-
 }
