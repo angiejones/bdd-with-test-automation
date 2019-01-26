@@ -13,5 +13,7 @@ Scenario: Withdraw from account when funds are available
     And a new transaction should be recorded
 ```
 
+Tools used: Java, Selenium WebDriver, Rest-Assured, Cucumber, Applitools
+
 Video demonstration of this code base can be found as part of the [2019 Automation Guild Conference](https://guildconferences.com/).
 
