@@ -15,5 +15,7 @@ Scenario: Withdraw from account when funds are available
 
 Tools used: Java, Selenium WebDriver, Rest-Assured, Cucumber, Applitools
 
+Blog Post: http://angiejones.tech/writing-good-gherkin-enables-good-test-automation/
+
 Video demonstration of this code base can be found as part of the [2019 Automation Guild Conference](https://guildconferences.com/).
 
